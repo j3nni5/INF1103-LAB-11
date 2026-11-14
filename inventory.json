@@ -1,0 +1,48 @@
+{
+    "suppliers": [
+        {
+            "supplier_id": "S001",
+            "name": "TechSource",
+            "contact_email": "sales@techsource.com"
+        },
+        {
+            "supplier_id": "S002",
+            "name": "DigitalHub",
+            "contact_email": "hello@digitalhub.com"
+        },
+        {
+            "supplier_id": "S100",
+            "name": "Acme Supplies",
+            "contact_email": "sales@acme.com"
+        }
+    ],
+    "products": [
+        {
+            "product_id": "P001",
+            "name": "Laptop",
+            "price": 1200.0,
+            "stock": 14,
+            "supplier_id": "S001",
+            "type": "physical",
+            "weight": 2.5
+        },
+        {
+            "product_id": "P002",
+            "name": "Mouse",
+            "price": 25.5,
+            "stock": 40,
+            "supplier_id": "S001",
+            "type": "physical",
+            "weight": 0.1
+        },
+        {
+            "product_id": "D001",
+            "name": "Photo Editor",
+            "price": 59.9,
+            "stock": 100,
+            "supplier_id": "S002",
+            "type": "digital",
+            "download_size": 450
+        }
+    ]
+}
